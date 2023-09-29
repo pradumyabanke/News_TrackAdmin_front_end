@@ -1,0 +1,81 @@
+.parentContainer {
+  text-align: center;
+  box-sizing: border-box;
+  gap: 2rem;
+  margin-bottom: 4rem;
+
+  .metaDataContainer1 {
+    min-height: 10vh;
+    width: 92%;
+    background-color: #e2e0e0;
+    border-radius: 20px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+    &__data {
+      width: auto;
+      display: flex;
+      gap: 12px;
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .key {
+        color: black;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+      }
+
+      .value {
+        color: #7b7272;
+        font-weight: 600;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .articleContainer {
+    height: auto;
+    width: 92%;
+    background-color: #e2e0e0;
+    border-radius: 20px;
+    margin: 0px auto;
+    padding: 20px;
+
+    p {
+      margin-bottom: 2rem;
+    }
+
+    &__titleHeading {
+      color: black;
+      font-weight: 700;
+      font-size: 16px;
+      text-transform: capitalize;
+    }
+
+    &__titleContent {
+      font-weight: 600;
+      font-size: 15px;
+      color: #7b7272;
+      font-family: "Lato";
+    }
+  }
+}
+.marginBottom {
+  margin-bottom: 3rem !important;
+}
+
+.tagtable{
+  
+}
+
+// @font-face {
+//   font-family: bhaskar;
+//   src: url("../Fonts/Bhaskar.ttf");
+// }

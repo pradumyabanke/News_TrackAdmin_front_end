@@ -1,0 +1,87 @@
+.newscontainer {
+  width: 60vw;
+  min-height: 115vh;
+  height: auto;
+  margin: 3rem auto;
+  box-shadow: 1px 1px 10px 10px rgb(198, 193, 193);
+}
+.top {
+  /* height: 20vh; */
+}
+.ESpecialtext {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.BREAKINGtext {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+.hr5 {
+  border: 1px solid;
+}
+.hr2 {
+  border: 3px solid black;
+  opacity: 1;
+}
+.contant2 {
+  display: flex;
+  gap: 15px;
+}
+.box1 {
+  width: 35vw;
+}
+.box2 {
+  width: 35vw;
+  min-height: 74vh;
+  height: auto;
+}
+.JOIN {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.birthdaybox {
+  width: 25vw;
+  /* height:22vh; */
+  margin: auto;
+}
+.JULIETAtext {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+.datebox1 {
+  width: 17.5vw;
+  /* height: 15vh; */
+}
+.dateboxx1 {
+  width: 17.5vw;
+  border-left: 2px solid rgb(18, 18, 18);
+  /* height: 15vh; */
+}
+.datecontant {
+  width: 15vw;
+  height: 12vh;
+  margin: 5%;
+}
+.date {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+.date2 {
+  color: rgb(12, 12, 12);
+  text-align: center;
+  font-size: 25px;
+}
+.DRESS {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2%;
+}
+.image {
+  width: 100%;
+}

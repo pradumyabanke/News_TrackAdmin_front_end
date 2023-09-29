@@ -1,0 +1,119 @@
+.template {
+  &-header {
+    width: 100%;
+    height: 13vh;
+    border: 2px solid red;
+    padding: 10px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.19) 10px 0px 10px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgb(255, 255, 147);
+
+    &-logo {
+      width: 10%;
+      height: 100%;
+      object-fit: contain;
+    }
+    h1 {
+      text-align: center;
+      width: 30%;
+      margin: auto;
+    }
+  }
+
+  &-navbar {
+    width: 100%;
+    height: 5vh;
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+    border: 1px solid black;
+    z-index: 1;
+
+    ul {
+      list-style: none;
+      display: flex;
+
+      justify-content: space-evenly;
+
+      padding: 0;
+      margin: 0;
+      height: 100%;
+
+      li {
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  &-body {
+    padding: 20px;
+    min-height: 80vh;
+    height: auto;
+    width: 100%;
+    border: 2px solid rgb(42, 42, 44);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 2fr;
+    gap: 20px;
+
+    h5 {
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    &-div1 {
+      grid-column: 1/4;
+      grid-row: 1/2;
+      border: 1px solid blue;
+      padding: 15px;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    &-div2 {
+      grid-column: 4/7;
+      border: 1px solid blue;
+      grid-row: 1/2;
+      padding: 15px;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    &-div3 {
+      grid-column: 1/3;
+      border: 1px solid blue;
+      grid-row: 2/3;
+      padding: 15px;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    &-div4 {
+      grid-column: 3/5;
+      border: 1px solid blue;
+      grid-row: 2/3;
+      padding: 15px;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    &-div5 {
+      grid-column: 5/7;
+      border: 1px solid blue;
+      grid-row: 2/3;
+      padding: 15px;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+  }
+  &-footer {
+    min-height: 13vh;
+    border: 2px solid green;
+  }
+}
